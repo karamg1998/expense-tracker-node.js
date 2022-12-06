@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 202, 202);
+}
+.main-heading{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight:bold;
+    padding: 20px;
+}
+.expense{
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+#save{
+    text-decoration: none;
+    border: none;
+    padding: 8px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+#expenseamount,#description,#category{
+    padding: 2px;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.expenseamount{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right: 4%;
+    margin-left: 10%;
+}
+.description{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right: 7%;
+    margin-left: 12%;
+}
+.category{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    margin-right:2%;
+    margin-left: 1.8%;
+}
+.toast{
+    background-color: rgb(226, 29, 29);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+    margin: 1rem;
+   }
+.popup{
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+  }
+  .e-container{
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: rgb(5, 107, 114);
+  }
+  #edit{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 15px;
+  }
+  #del{
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(240, 12, 12);
+        color: white;
+        font-size: 15px;
+  }

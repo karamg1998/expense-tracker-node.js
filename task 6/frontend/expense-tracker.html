@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="main-heading">Day To Day Expenses</h1>
+    <div class="popup">
+
+    </div>
+    <form class="expense">
+        <label class="expenseamount">Expense Amount:</label>
+        <input type="number" id="expenseamount" name="expenseamount"><br><br>
+        <label class="description">Description:</label>
+        <input type="text" id="description" name="choosedescription"><br><br>
+        <label class="category">Choose Catogory:</label>
+        <select class="category" id="category" name="category">
+            <option value="movie">Movie</option>
+            <option value="fuel">Fuel</option>
+            <option value="electricity">Electricity</option>
+            <option value="water">Water</option>
+            <option value="wifi">Wifi</option>
+       </select><br><br>
+       <button id="save">Add Expense</button>
+    </form>
+    <div class="main">
+        
+    </div>
+    <script src="expense.js" async></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.js"></script>
+</body>
+</html>
