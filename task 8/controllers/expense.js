@@ -1,4 +1,5 @@
 const Expense=require('../models/expense-table');
+const User=require('../models/user');
 const jwt=require('jsonwebtoken');
 
 
@@ -49,8 +50,11 @@ exports.getExpense=async (req,res,next)=>{
                  description:expense[i].description,
                  category:expense[i].category});
     }
-    res.json(obj);
-    console.log('expense sent');
+    User.findOne({where:{id:userid}})
+    .then((user)=>{
+       res.json({name:user.name,premium:user.ispremiumuser,data:obj});
+       console.log('expense sent');
+    })    
   });
   }
   catch(err){

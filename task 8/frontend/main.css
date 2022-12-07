@@ -6,11 +6,10 @@ body{
     background-color: rgb(235, 202, 202);
 }
 .main-heading{
-    text-align: center;
     background-color: rebeccapurple;
     color: white;
     font-weight:bold;
-    padding: 20px;
+    padding: 15px;
 }
 .expense{
     padding-top: 40px;
@@ -102,10 +101,34 @@ body{
         font-size: 15px;
   }
   #logout{
-    padding: 5px;
+        padding: 6px;
+        margin-left: 10px;
         border: none;
         border-radius: 3px;
         background-color: rgb(240, 12, 12);
         color: white;
-        font-size: 15px;
+        font-size: 20px;
+  }
+  #membership{
+    padding:6px;
+    margin-top: 5px;
+    margin-left: 79%;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: royalblue;
+    font-size: 20px;
+  }
+  .user{
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .heading{
+    text-align: center;
+    font-size: 25px;
+  }
+  body.dark{
+    background-color: #1f1f1f;
+    color: white;
   }

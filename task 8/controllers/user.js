@@ -14,7 +14,8 @@ exports.postUser=async (req,res,next)=>{
        await User.create({
         name:req.body.name,
         email:req.body.email,
-        password:hash
+        password:hash,
+        ispremiumuser:'false'
          }).then(user=>{
         res.json({success:true,message:"user singned up"});
         console.log('user signed up');
